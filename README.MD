@@ -1,6 +1,6 @@
 # Soundcloud Support API for Geometry Dash
 Old project from 2016. 
-Not Supported Anymore.
+Not Supported Anymore and Might not work anymore
 
 # Requirements
 
