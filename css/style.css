@@ -1,149 +1,259 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+@font-face {
+    font-family: "Fira Code";
+    src: url("../fonts/FiraCode-Regular.ttf")
 }
+
 
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 12px;
-  line-height: 30px;
-  color: #777;
-  background: #4CAF50;
- 
+    background-color: #222129;
 }
 
-.container {
-  max-width: 400px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
+.topnav{
+    font-family: "Fira Code";
+
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact button[type="submit"] {
-  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+.topnav a{
+    position: relative;
+    left: 236px;
+    bottom: 55px;
+    font-family: "Fira Code";
+    padding: 24px 24px;
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+}
+.skyvlanLogo{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    width: 211px;
+    height: 64px;
+    font-size: 36px;
+    background: #92DEA5;
 }
 
-#contact {
-  background: #F9F9F9;
-  padding: 25px;
-  margin: 150px 0;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+#logoText{
+    position: absolute;
+    width: 179px;
+    height: 44px;
+    top:    5px;
+    left:   16px;
+}
+.about{
+    position: absolute;
+    width: 712.25px;
+    height: 318px;
+    top:192px;
+    left: 108.32px;
+}
+.SectionTitle{
+    font-family: "Fira Code";
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
 }
 
-#contact h3 {
-  display: block;
-  font-size: 30px;
-  font-weight: 300;
-  margin-bottom: 10px;
+.TextContent{
+    font-family: "Fira Code";
+    font-size: 18px;
+    color: white;
+}
+.CollapsibleTexts{
+    font-family: "Fira Code";
+    font-size: 36px;
+    color: white;
+}
+.CollapsibleTexts a{
+    color: white;
+}
+.separatorLine{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 75px;
+
+    border: 4px dashed #92DEA5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.skills{
+    position: relative;
+    top: 512px;
+    left: 108.32px;
+
+}
+.skill1-contents{
+    width: 819px;
+    height: 250px;
+}
+.skill2-contents{
+    width: 819px;
+    height: 250px;
+}
+.skill3-contents{
+    width: 1096px;
+    height: 250px;
+}
+.skill4-contents{
+    width: 819px;
+    height: 200px;
+}
+.skill5-contents{
+    width: 819px;
+    height: 200px;
 }
 
-#contact h4 {
-  margin: 5px 0 15px;
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
+
+.skillBox{
+    width: 273.86px;
+    height: 63px;
+    float: left;
+    border: 1px dashed #92DEA5;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-left: 28px;
+    margin-top: 18px;
+}
+.Projects{
+    position: relative;
+    top: 600px;
+    left: 108.32px;
 }
 
-fieldset {
-  border: medium none !important;
-  margin: 0 0 10px;
-  min-width: 100%;
-  padding: 0;
-  width: 100%;
+.ProjectBox{
+    position: relative;
+    width: 701.01px;
+    height: 213px;
+    border: 2px dashed #92DEA5;
+    margin-top: 23px;
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea {
-  width: 100%;
-  border: 1px solid #ccc;
-  background: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
+.ProjectTitle{
+    position: absolute;
+    width: 677px;
+    height: 100px;
+    top: 13px;
+    left: 18px;
+    font-family: "Fira Code";
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
 }
 
-#contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
-#contact textarea:hover {
-  -webkit-transition: border-color 0.3s ease-in-out;
-  -moz-transition: border-color 0.3s ease-in-out;
-  transition: border-color 0.3s ease-in-out;
-  border: 1px solid #aaa;
+.ProjectLang{
+    position: absolute;
+    width: 512px;
+    height: 46px;
+    top:123px;
+    left: 18px;
+    font-family: "Fira Code";
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
 }
 
-#contact textarea {
-  height: 100px;
-  max-width: 100%;
-  resize: none;
+.ProjectDate{
+    position: absolute;
+    width: 221px;
+    height: 46px;
+    top: 163px;
+    left: 18px;
+    font-family: "Fira Code";
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
 }
 
-#contact button[type="submit"] {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  background: #4CAF50;
-  color: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
-  font-size: 15px;
+.ProjectLink{
+    position: absolute;
+    width: 102px;
+    height: 46px;
+    background-color: #92DEA5;
+    left:500px;
+    top: 157px;
+    font-family: "Fira Code";
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
 }
 
-#contact button[type="submit"]:hover {
-  background: #43A047;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
+.ProjectLink a{
+    font-family: "Fira Code";
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
 }
 
-#contact button[type="submit"]:active {
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+.Achievements{
+    position: relative;
+    top: 700px;
+    left: 108.32px;
 }
 
-.copyright {
-  text-align: center;
+.AchievementBox{
+    position: relative;
+    width: 701.01px;
+    height: 213px;
+    border: 2px dashed #92DEA5;
+    margin-top: 23px;
+
 }
 
-#contact input:focus,
-#contact textarea:focus {
-  outline: 0;
-  border: 1px solid #aaa;
+.AchievementTitle{
+    position: absolute;
+    width: 643px;
+    height: 102px;
+    top: 23px;
+    left: 39px;
+
+    font-family: "Fira Code";
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
 }
 
-img {
-    float:right;
+.AchievementYear{
+    position: absolute;
+    width: 93px;
+    height: 39px;
+    top: 151px;
+    left: 39px;
+    font-family: "Fira Code";
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
 }
 
-::-webkit-input-placeholder {
-  color: #888;
+.AchievementType{
+    position: absolute;
+    width: 198px;
+    height: 18px;
+    top: 175px;
+    left: 137px;
+    font-family: "Fira Code";
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
 }
 
-:-moz-placeholder {
-  color: #888;
+.AchievementRank{
+    position: absolute;
+    width: 257px;
+    height: 39px;
+    top: 151px;
+    left: 425px;
+
+    font-family: "Fira Code";
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
 }
 
-::-moz-placeholder {
-  color: #888;
-}
-
-:-ms-input-placeholder {
-  color: #888;
+.Contacts{
+    position: relative;
+    top:800px;
+    left: 108.32px;
 }
